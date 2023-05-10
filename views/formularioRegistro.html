@@ -1,0 +1,87 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulario de Registro</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap" rel="stylesheet">
+ 
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/normalize.css">
+
+
+	<!--<style>
+  
+		form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+            
+		}
+		input[type="text"], input[type="email"], input[type="password"] {
+			margin-bottom: 10px;
+			padding: 10px;
+			border-radius: 5px;
+			border: 1px solid #ccc;
+			width: 100%;
+			box-sizing: border-box;
+            text-align: center;
+            background-color: #86C7ED;
+
+		}
+        
+		input[type="submit"] {
+			background-color: #1836B2;
+			color: rgb(233, 228, 228);
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		input[type="submit"]:hover {
+			background-color: #A066CB;
+		}
+    
+	</style>
+-->
+    
+</head>
+<body>
+<header>
+
+</header>
+<main>
+	<div class="header"><h3>CREA TU CUENTA</h3></div>
+    <div class="contenedor">
+	<form>
+		<label for="nombre" placeholder="Escribe su nombre completo">NOMBRE Y APELLIDOS</label>
+		<input type="text" id="nombre" name="nombre" required>
+		
+		<label for="email" placeholder="ingresa correo completo" >EMAIL</label>
+		<input type="email" id="email" name="email" required>
+		
+		<label for="contrasena">CONTRASEÑA</label>
+		<input type="password" id="contrasena" name="contrasena" required>
+		
+		<label for="confirmar-contrasena">CONFIRMAR CONTRASEÑA</label>
+		<input type="password" id="confirmar-contrasena" name="confirmar-contrasena" required>
+		
+		<label>
+			<input type="checkbox" name="robot" required>
+			No soy un robot
+		</label>
+		
+		<input type="submit" value="Crear Cuenta">
+        
+	</form>
+	<p>¿Ya tienes una cuenta? <a href="#">Inicia sesión</a>.</p>
+</div>
+</main>
+<footer>
+
+</footer>
+</body>
+</html>
